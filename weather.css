@@ -1,0 +1,67 @@
+body
+{
+  background-color:#100000;
+overflow:hidden;
+
+  color:black;/* for tets*/
+}
+p
+{
+  font-size:2em;
+  display:inline;
+}
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox h1 {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+    text-align:center;
+  font-family:"Courier New";
+}
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.boxer{
+  font-family:"Lucida Console";
+ 
+  opacity:0.6;
+  margin:100px;
+
+}
+
+
+button
+{
+  display:inline;
+color:black;
+ outline:0;
+  padding:14px 16px;
+  text-decoration:none;
+  
+}
+ #scale{
+    color:white;
+    background-color: #333;
+    padding:12px 14px;
+}
+button:hover
+{
+    color:white;
+  background-color:#111;
+}
+button:focus{
+    outline:0;
+}
+.addons{
+    color:white;
+}
